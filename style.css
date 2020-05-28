@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: #187ff8;
+}
+
+.centro{
+    width: 1366PX;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+}
+h1:hover{
+    cursor: default;
+}
+h1 .ponto{
+    color: black;
+}
+.esquerda{
+    width: 465px;
+    height: 533px;
+    margin-top: 66px;
+    font-size: 16px;
+    margin-left: 84px;
+}
+.grande{
+    color: white;
+    font-family: 'Anton', sans-serif;
+  font-size: 80px;
+  line-height: 78px;
+}
+.grande:hover{
+    cursor: default;
+}
+.frase{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.frase:hover{
+   cursor: default;
+}
+.email{
+color: white;
+margin-top: 20px;
+font-family: 'Righteous', cursive;
+}
+.mail{
+    outline: 0;
+    border: 0;
+    margin-top: 10px; 
+    background-color: #187ff8 ;
+    border-bottom: 1px white solid;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 430px;
+}
+button{
+    width: 430px;
+    margin-top: 20px;
+    background-color: black;
+    outline: 0;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+   
+}
+.pfrase{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 9px;
+    margin-top: 30px;
+    opacity: 0.7 ;
+}
+.menu{
+
+    width: 100%;
+    height: 50px;
+    float: left;
+
+}
+.menu ul{
+    list-style-type: none;
+    float: left;
+    
+    padding-top: 7px;
+    
+}
+.menu li{
+    float: left;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 12px;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid black;
+  cursor: pointer;
+  line-height: 19px;
+}
+.esq{
+width: 50%;
+
+}
+.dir{
+   
+    width: 50%;
+    float: right;
+    }
+img{
+    width: auto;
+    height: auto;
+  margin-top: 20px;
+}
